@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "NobelUno-Regular";
+  src: url("../../public/fonts/NobelUno-Regular.woff2") format("woff2"),
+    url("../../public/fonts/NobelUno-Regular.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NobelUno-Medium";
+  src: url("../../public/fonts/NobelUno-Medium.woff2") format("woff2"),
+    url("../../public/fonts/NobelUno-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NobelUno-Bold";
+  src: url("../../public/fonts/NobelUno-Bold.woff2") format("woff2"),
+    url("../../public/fonts/NobelUno-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NobelUno-SemiBold";
+  src: url("../../public/fonts/NobelUno-SemiBold.woff2") format("woff2"),
+    url("../../public/fonts/NobelUno-SemiBold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NobelUno-Light";
+  src: url("../../public/fonts/NobelUno-Light.woff2") format("woff2"),
+    url("../../public/fonts/NobelUno-Light.woff2") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  src: url("../../public/fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("../../public/fonts/Poppins-SemiBold.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "NobelUno-Medium" !important;
+  overflow-x: hidden ;
+}
+
+
+
+/* Entire scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height of the scrollbar (for horizontal scroll) */
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Color of the track */
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #eb7013; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+  border: 3px solid #f0f0f0;
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dc5f00; /* Darker shade on hover */
+}
+
+body{
+  overflow-x: hidden !important;
+}

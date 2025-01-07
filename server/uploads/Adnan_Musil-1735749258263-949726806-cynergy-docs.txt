@@ -1,0 +1,47 @@
+Page - Home
+1. facebook instagram and linkedlin links
+2. What should we show when click on show more in make the industries section like
+3. Make an appointment redirect ?
+4. Footer see more ? facebook , insta, github, linkedin , X links ?
+5. Get in touch file upload ?
+
+
+page - Web app development
+
+page - PWA development
+
+1. Get a Quote ?
+
+page - native app development
+
+page - mobile game development
+
+page - ios development
+
+page - android developer
+
+1. Hire Developer Link ?
+2. Get A Quote
+
+page - no code low code revolution
+
+page - AI app development
+
+page - Android App Design
+
+page - ios app design
+
+page - mobile app design services
+
+1. Get A Quote ?
+
+page - mobile app consulting service
+
+page - Mobile app support & maintainance
+
+1. Get A Quote
+
+page - mobile app testing
+
+1. Get A Quote
+

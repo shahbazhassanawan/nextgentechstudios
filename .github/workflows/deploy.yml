@@ -1,0 +1,34 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main # Deploy when there's a push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20'
+
+    # - name: Install dependencies
+    #   run: npm install --force
+
+    - name: Deploy to server
+      env:
+        SERVER_HOST: ${{ secrets.SERVER_HOST }}
+        SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
+        SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+        DESTINATION: ${{ secrets.DESTINATION_PATH }}
+      run: |
+        echo "$SSH_KEY" > key.pem
+        chmod 600 key.pem
+        rsync -avz -e "ssh -i key.pem -o StrictHostKeyChecking=no" --exclude=node_modules --exclude=.git ./ $SERVER_USERNAME@$SERVER_HOST:$DESTINATION
+        ssh -i key.pem -o StrictHostKeyChecking=no $SERVER_USERNAME@$SERVER_HOST "source ~/.nvm/nvm.sh && cd /var/www/html/CynergyStudio && npm i --force && pm2 restart 0"
