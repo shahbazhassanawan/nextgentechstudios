@@ -108,10 +108,10 @@ const Page = () => {
                 Platforms like Knewton and Smart Sparrow use machine learning to
                 create personalized learning paths for students. These systems
                 can suggest learning materials, exercises, and quizzes based on
-                the student’s progress and comprehension.Platforms like Knewton
+                the student&apos;s progress and comprehension.Platforms like Knewton
                 and Smart Sparrow use machine learning to create personalized
                 learning paths for students. These systems can suggest learning
-                materials, exercises, and quizzes based on the student’s
+                materials, exercises, and quizzes based on the student&apos;s
                 progress and comprehension.
               </p>
             </div>

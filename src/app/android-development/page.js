@@ -9,7 +9,7 @@ import {faqData,developerAdequacies,whyChooseUs} from './data'
 import DropUsALine from "../components/DropUsALine";
 import AppCard from "../components/appCard";
 
-const page = () => {
+const Page = () => {
   
   return (
     <>
@@ -259,4 +259,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

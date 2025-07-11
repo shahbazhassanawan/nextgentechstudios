@@ -10,7 +10,7 @@ import {section2Data,section3Data,section5Data,chooseUsData,faqData} from './dat
 import DropUsALine from "../components/DropUsALine";
 import AppCard from "../components/appCard";
 
-const page = () => {
+const Page = () => {
 
   return (
     <>
@@ -143,4 +143,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

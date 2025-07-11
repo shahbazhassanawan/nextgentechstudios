@@ -10,7 +10,7 @@ import Link from "next/link";
 import {faqData,topNotch,whyCynergy} from './data'
 import DropUsALine from "../components/DropUsALine";
 
-const page = () => {
+const Page = () => {
   
   
   return (
@@ -202,4 +202,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

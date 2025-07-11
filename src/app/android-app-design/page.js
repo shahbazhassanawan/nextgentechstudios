@@ -9,7 +9,7 @@ import DropUsALine from "../components/DropUsALine";
 import { faqData,designProcess,androidAppDesign,whyChooseUs } from "./data";
 import AppCard from "../components/appCard";
 
-const page = () => {
+const Page = () => {
 
   return (
     <>
@@ -145,7 +145,7 @@ const page = () => {
           <div className="row mt-5">
             {designProcess.map((item,i)=>(
               <div className="col-md-4 my-2" key={i}>
-                <AppCard heading={item.heading} height={370} isCenter={true} hoverEffect="effect2" ef description={item.description} />
+                <AppCard heading={item.heading} height={370} isCenter={true} hoverEffect="effect2" description={item.description} />
             </div>
             ))}
           </div>
@@ -211,4 +211,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
