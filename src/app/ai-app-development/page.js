@@ -95,11 +95,11 @@ const Page = () => {
             <div className="col-md-6 footerSection">
               <h4 className="title-page-2">Intelligent Tutoring Systems (ITS):</h4>
               <p className="paragraphText">
-                AI-based tutors can identify a student's strengths and
+                AI-based tutors can identify a student&apos;s strengths and
                 weaknesses and adjust the curriculum in real-time. This ensures
                 that learners receive content that matches their level of
                 understanding, leading to better learning outcomes.AI-based
-                tutors can identify a student's strengths This ensures that
+                tutors can identify a student&apos;s strengths This ensures that
                 learners receive content that matches their level of
                 understanding, leading to better learning outcomes.
               </p>
