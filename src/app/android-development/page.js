@@ -182,7 +182,7 @@ const page = () => {
                   developer to make the development phase smooth. They report to
                   the senior project manager or senior team leader to guide the
                   app development. To establish high-performance apps with
-                  appropriate Android security measures it's important to look
+                  appropriate Android security measures it&apos;s important to look
                   at Android app developers for hire.
                 </p>
                 <h3 style={{fontWeight: '700'}} className="text-end mt-5">Mid-Level Developers</h3>

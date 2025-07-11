@@ -100,7 +100,7 @@ const page = () => {
                   <h3 className="cardHeading">Native Android App Design</h3>
                   <p style={{color:'white',fontSize:'16px',lineHeight:'27px',marginTop:'20px'}}>
                     Native apps are specifically designed for distinct mobile
-                    operating systems, meaning they can't be used
+                    operating systems, meaning they can&apos;t be used
                     interchangeably across platforms like iOS and Android. Our
                     outstanding mobile application design services focus on
                     creating an appealing UX design stage that quickly captures
@@ -166,9 +166,9 @@ const page = () => {
                   <h4 className="cardHeading">Galvanizing Designs</h4>
                   <p className="cardDesc">
                     Our dynamic brand style and captivating UI elements will
-                    enhance your brand's identity, foster user engagement, and
+                    enhance your brand&apos;s identity, foster user engagement, and
                     boost business conversions. In a rapidly evolving
-                    technological landscape, it's essential to stay ahead and
+                    technological landscape, it&apos;s essential to stay ahead and
                     provide experiences that resonate with users.
                   </p>
                   </div>

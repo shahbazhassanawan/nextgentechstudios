@@ -152,7 +152,7 @@ const page = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                    Migrating and upgrading your app involves transferring data from one operating system to another while maintaining its functionality and performance. At Cynergy Studios, we intuitively transition your app's framework to uphold its quality and ensure smooth operations. We leverage the latest tools and technologies to keep your app functional and compatible, all while minimizing iOS app development costs.
+                    Migrating and upgrading your app involves transferring data from one operating system to another while maintaining its functionality and performance. At Cynergy Studios, we intuitively transition your app&apos;s framework to uphold its quality and ensure smooth operations. We leverage the latest tools and technologies to keep your app functional and compatible, all while minimizing iOS app development costs.
 
                     </div>
                   </div>

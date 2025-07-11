@@ -124,7 +124,7 @@ const page = () => {
             <div className="col-md-6">
               <div className="SuccessfullBox">
                 <img src="./images/748358.jpg" alt="748358" className="w-100" />
-                <h3 className="">Cooper's Hawk</h3>
+                <h3 className="">Cooper&apos;s Hawk</h3>
                 <p className="paragraphText">
                   We may share the information that we collect, both personal
                   and non-personal, with third parties such as advertisers,

@@ -265,7 +265,7 @@ const page = () => {
                 When we no longer need to use your information, and there is no
                 need for us to keep it to comply with our legal or regulatory
                 obligations, we’ll either remove it from our systems or
-                depersonalize it so that we can't identify you.
+                depersonalize it so that we can&apos;t identify you.
               </p>
             </div>
           </div>

@@ -166,9 +166,9 @@ const page = () => {
             <div className="col-md-12">
               <h2 className="mb-4 fw-bold">Your Consent</h2>
               <p>
-                We've updated our Terms & Conditions to provide you with
+                We&apos;ve updated our Terms & Conditions to provide you with
                 complete transparency into what is being set when you visit our
-                site and how it's being used. By using our website, registering
+                site and how it&apos;s being used. By using our website, registering
                 an account, or making a purchase, you hereby consent to our
                 Terms & Conditions.
               </p>

@@ -82,7 +82,7 @@ const page = () => {
             The top management of Cynergy Studios characterizes each support and
             maintenance step with beneficial
             <br />
-            processes to streamline the app's performance and potency with
+            processes to streamline the app&apos;s performance and potency with
             clarity.
           </p>
 
