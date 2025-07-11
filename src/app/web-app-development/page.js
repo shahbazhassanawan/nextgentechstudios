@@ -123,7 +123,7 @@ const page = () => {
           </p>
           <div className="row mt-5">
             {chooseUsData?.map((item,i)=>(
-               <div className="col-md-4 my-2">
+               <div className="col-md-4 my-2" key={i}>
                   <AppCard heading={item.heading} height={255} hoverEffect="effect2" isCenter={true} description={item.description} />
              </div>
             ))}

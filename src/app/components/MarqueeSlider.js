@@ -35,7 +35,7 @@ function MarqueeSlider() {
             <div className="marquee-content">
               {duplicatedMarqueeItems.map((item, index) => (
                 <div className={`item ${item.class}`} key={index}>
-                  <img src={item.src} />
+                  <img src={item.src} alt="Client logo" />
                 </div>
               ))}
             </div>

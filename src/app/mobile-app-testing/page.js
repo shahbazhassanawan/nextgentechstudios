@@ -114,8 +114,8 @@ const page = () => {
                 customized solutions for your apps.
               </p>
 
-              {topNotch.map((item) => (
-                <div className="">
+              {topNotch.map((item, index) => (
+                <div key={index} className="">
                   <h4 className="cardHeading">{item.heading}</h4>
                   <p className="cardDesc">{item.description}</p>
                 </div>

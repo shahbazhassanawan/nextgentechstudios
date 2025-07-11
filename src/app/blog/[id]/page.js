@@ -87,7 +87,7 @@ const BlogDetail = () => {
                 <h1 className="blogHeadingSub" style={{fontWeight:'bold',fontSize:'45px'}}>{item.heading}</h1>
                 <p className="mt-3 paragraphText">{item.description}</p>
                 {item.points.map((point,i)=>(
-                    <div className="d-flex align-items-start my-2 ps-4 gap-3">
+                    <div key={i} className="d-flex align-items-start my-2 ps-4 gap-3">
                         <div className="smallCircle mt-2    " />
                         <div key={i} className="paragraphText">{point}</div>
                     </div>
@@ -111,7 +111,7 @@ const BlogDetail = () => {
             ))}
             </div>
             <div className="col-md-5 d-flex align-items-center" style={{marginTop:'',marginBottom:''}}>
-                <img src="../images/blogBenefit.png" style={{width:''}} />
+                <img src="../images/blogBenefit.png" style={{width:''}} alt="AI Benefits" />
             </div>
         </div>    
     </div>   

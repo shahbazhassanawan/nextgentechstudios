@@ -10,7 +10,7 @@ function HotspotSection() {
             <div className="contactContainer">
               <h2 className="fw-bold text60">
                 <strong>
-                  Let's Start <br /> Working Together.
+                  Let&apos;s Start <br /> Working Together.
                   <br /> Get In Touch!
                 </strong>
               </h2>

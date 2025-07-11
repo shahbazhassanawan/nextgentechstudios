@@ -38,7 +38,7 @@ const CallButton = () => {
             <FaHeadphones />
           </div>
           <div>
-            Let's Connect With Cynergy Team
+            Let&apos;s Connect With Cynergy Team
           </div>
         </div>
         <div className='p-3 border-bottom' style={{fontWeight:'bold'}}>

@@ -333,11 +333,12 @@ header {
 }
 
 .mid-mega-option {
-  display: flex;
-  align-items: start;
-  justify-content: start;
+  display: flex
+;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .mid-mega-option a {
   font-size: 35px !important;
@@ -1589,7 +1590,7 @@ section.evolution-sec::after {
   z-index: -1;
 }
 .phase_b-process::after {
-  content: "We Repeat Until It’s Finished!";
+  content: "We Repeat Until It's Finished!";
   font-size: 26px;
   letter-spacing: 4px;
   text-transform: capitalize;
@@ -2284,16 +2285,15 @@ button.dive_buttons::before {
 }
 
 .cs_detail_01 {
-  background-color: #161d23;
-  background-size: contain;
-  background-image: url("/images/faceOne.png");
+  background-color: #31363f;
+  background-image: url("/images/Group1707479745.png");
   background-position: right;
   background-repeat: no-repeat;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   padding: 50px;
   border-radius: 20px;
   margin: 15px 0;
@@ -2344,7 +2344,7 @@ button.dive_buttons::before {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   padding: 50px;
   border-radius: 20px;
   margin: 15px 0;
@@ -2395,7 +2395,7 @@ button.dive_buttons::before {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   padding: 50px;
   border-radius: 20px;
   margin: 15px 0;
@@ -2447,7 +2447,7 @@ button.dive_buttons::before {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   padding: 50px;
   border-radius: 20px;
   margin: 15px 0;
@@ -3611,18 +3611,13 @@ section.recent_news {
   font-weight: bold;
 }
 .maintain-process {
-  background-color: #fff;
-  padding: 2rem 1.5rem 1.5rem 2rem; 
-  -webkit-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.229);
-  -moz-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.229);
-  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.229);
-  border-radius: 12px;
-  cursor: pointer;
-  min-height: 180px;
+  background-color: #31363f;
+  padding: 30px;
+  border-radius: 20px;
   display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  transition: all 0.3s ease-in-out;
 }
 .maintain-process h3 {
   font-size: 26px;
@@ -3710,21 +3705,15 @@ section.recent_news {
   color: var(--orange);
 }
 .app-quality {
-  background-color: #fff;
-  padding: 2rem 1rem 2rem 2rem;
-  -webkit-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.229);
-  -moz-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.229);
-  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.229);
-  border-radius: 12px;
-  cursor: pointer;
-  min-height: 180px;
-  width: 80%;
+  background-color: #31363f;
+  padding: 30px;
+  border-radius: 20px;
   display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
-  transition: transform 0.6s ease, background-image 0.6s ease;
-  margin-top: 26px;
+  align-items: flex-start;
+  gap: 20px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  width: 80%;
 }
 .app-quality h3 {
   font-size: 26px;
@@ -4248,7 +4237,7 @@ section.recent_news {
 .right-main-menu {
   padding: 50px 100px !important;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
   overflow: scroll;
@@ -4262,7 +4251,7 @@ section.recent_news {
   list-style-type: none;
   margin: 0px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   gap: 20px;
 }
@@ -5110,7 +5099,7 @@ section.recent_news {
   padding: 26px;
   box-shadow: 2.84px 5.68px 23.21px 0px #0000001e;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   cursor: pointer;
@@ -5790,8 +5779,8 @@ color: var(--orange) !important;
 .mid-mega-option {
   display: flex
 ;
-  align-items: start;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
   padding-top: 10px;
 }
@@ -5925,8 +5914,8 @@ color: var(--orange) !important;
   padding: 20px 40px !important;
   display: flex
 ;
-  align-items: start;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
   margin: 0;
   overflow: scroll;

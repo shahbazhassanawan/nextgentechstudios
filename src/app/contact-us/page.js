@@ -9,7 +9,7 @@ import { submitForm } from "@/api/formServices";
 import MainBanner from "../components/MainBanner";
 import { links } from "./data";
 
-const page = () => {
+const Page = () => {
   const [formData, setFormData] = useState({
     fullName: "",
     phoneNumber:"",
@@ -188,7 +188,7 @@ const page = () => {
           <div className="col-md-1"></div>
           <div className="col-md-4 footerSection">
             <div className="contact-right">
-              <h4>What's next?</h4>
+              <h4>What&apos;s next?</h4>
               <div className="steps d-flex flex-column">
                 <div className="d-flex gap-4 my-3">
                   <div className="col-md-1 lineCircle">1</div>
@@ -201,7 +201,7 @@ const page = () => {
                   <div className="col-md-1 lineCircle">2</div>
                   <p className="col-md-10" style={{marginLeft:'55px'}}>
                     Our team will gather all the requirements for your project,
-                    and if necessary, we'll sign an NDA to ensure complete
+                    and if necessary, we&apos;ll sign an NDA to ensure complete
                     confidentiality and privacy.
                   </p>
                 </div>
@@ -253,4 +253,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

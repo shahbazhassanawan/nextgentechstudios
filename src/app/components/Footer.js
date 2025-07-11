@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
-function footer() {
+function Footer() {
   const currentYear = new Date().getFullYear();
   const [theme, setTheme] = useState("light");
   useEffect(() => {
@@ -160,4 +160,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

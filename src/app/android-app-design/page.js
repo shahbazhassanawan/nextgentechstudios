@@ -96,7 +96,7 @@ const page = () => {
                   <h4 className="cardHeading">Branding</h4>
                   <p className="cardDesc hide-scrollbar" style={{height:'255px'}}>
                     It plays a significant role in enhancing the representation
-                    of the brand's identity and its usefulness across multiple
+                    of the brand&apos;s identity and its usefulness across multiple
                     platforms that resonate with your target audience. Our
                     powerful Android app design team works persistently to rank
                     Android app UI\UX design among the top mobile competencies.
@@ -113,7 +113,7 @@ const page = () => {
                   <p className="cardDesc hide-scrollbar" style={{height:'255px'}}>
                     This refers to the expert guidance to evaluate Android
                     mobile design aesthetically to function exceptionally in a
-                    profound manner as per the client's exigencies. They work
+                    profound manner as per the client&apos;s exigencies. They work
                     closely with professionals to roadmap successful solutions
                     for your mobile apps for Android app designs.
                   </p>
@@ -191,7 +191,7 @@ const page = () => {
           </p>
           <div className="row mt-5">
             {whyChooseUs.map((item,i)=>(
-              <div className="col-md-4 my-2">
+              <div className="col-md-4 my-2" key={i}>
                 <AppCard heading={item.heading} height={255} isCenter={true} hoverEffect="effect1" description={item.description} />
             </div>
             ))}

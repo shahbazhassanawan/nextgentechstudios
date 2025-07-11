@@ -8,7 +8,7 @@ import RecentNews from "../components/RecentNews";
 import CaseStudy from "../components/CaseStudy";
 import CaseStudySlider from "../components/CaseStudySlider";
 
-function page() {
+function Page() {
   const sectionsRef = useRef([]);
 
   useEffect(() => {
@@ -252,4 +252,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

@@ -5,7 +5,7 @@ import InnerCta from "../components/InnerCta";
 import RecentNews from "../components/RecentNews";
 import MainBanner from "../components/MainBanner";
 
-function page() {
+function Page() {
   const marqueeItems = [
     {
       src: "./images/vector-star.png",
@@ -61,13 +61,13 @@ function page() {
               Mobile App <br /> Development Services
             </h3>
             <p className="w-100">
-              Cynergy Studios' Mobile App Development Services bring your
+              Cynergy Studios&apos; Mobile App Development Services bring your
               creative ideas to life with sleek, high-performance mobile apps.
               Our expert developers use advanced technology and industry
               knowledge to craft apps that are intuitive, engaging, and
               versatile across platforms.
               <br />
-              Whether it’s native, hybrid, or cross-platform solutions, we
+              Whether it&apos;s native, hybrid, or cross-platform solutions, we
               ensure seamless functionality across iOS, Android, and more. Our
               collaborative process keeps you involved from concept to launch,
               guaranteeing your vision shines through.
@@ -90,7 +90,7 @@ function page() {
               Problem-Solving Pioneers in a <br /> Strove Digital World
             </h3>
             <p>
-              In today’s digital age, Cynergy Studios leads the way in solving
+              In today&apos;s digital age, Cynergy Studios leads the way in solving
               complex challenges with smart technological solutions. Our
               expertise spans app development, web design, and digital
               transformation, all tailored to meet diverse business needs and
@@ -269,34 +269,11 @@ function page() {
           </div>
         </div>
       </div> */}
-
-      <div className="name-slide">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="marquee-slider">
-              <div className="marquee-content">
-                {duplicatedMarqueeItems.map((item, index) => (
-                  <div className={`m-2`} key={index}>
-                    <img src={item.src} />
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="about-bottom-ban"></div>
-
-      <div className="mt-5 appMobilePaddingSmall">
-        <RecentNews />
-      </div>
-      <div className="mt-5">
-        <InnerCta />
-      </div>
+      <InnerCta />
+      <RecentNews />
       <Footer />
     </>
   );
 }
 
-export default page;
+export default Page;
