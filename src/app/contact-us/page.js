@@ -234,7 +234,7 @@ const Page = () => {
                   {links.map((item,i)=>(
                   <li key={i} className="linkCircle">
                     <a href={item.link} target="_blank">
-                    <img src={`/images/${item.imgUrl}.png`} />
+                    <img src={`/images/${item.imgUrl}.png`} alt={`${item.imgUrl} icon`} />
                     </a>
                   </li>
                   ))}

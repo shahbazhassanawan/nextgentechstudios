@@ -89,7 +89,7 @@ const BlogDetail = () => {
                 {item.points.map((point,i)=>(
                     <div key={i} className="d-flex align-items-start my-2 ps-4 gap-3">
                         <div className="smallCircle mt-2    " />
-                        <div key={i} className="paragraphText">{point}</div>
+                        <div className="paragraphText">{point}</div>
                     </div>
                 ))} 
             </div>
